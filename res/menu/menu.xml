@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/SetImei" android:icon="@android:drawable/ic_menu_set_as"  android:title="@string/menu_set_imei"></item>
+    <item android:id="@+id/ShowSite" android:icon="@android:drawable/ic_menu_view" android:title="@string/menu_show_website"></item>
+    <item android:id="@+id/Help" android:icon="@android:drawable/ic_menu_help" android:title="@string/menu_help"></item>
+    <item android:id="@+id/About" android:icon="@android:drawable/ic_menu_info_details" android:title="@string/menu_about"></item>
+    <item android:id="@+id/MoreApps"
+          android:icon="@android:drawable/ic_menu_info_details"
+          android:title="@string/menu_moreApps"></item>
+</menu>

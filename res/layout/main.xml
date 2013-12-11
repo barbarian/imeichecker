@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:id="@+id/ImeiText" android:textSize="30dip" android:layout_width="fill_parent" android:textColor="#FFFFFF" android:singleLine="false" android:layout_marginBottom="5dip" android:layout_marginTop="5dip" android:gravity="top|center_horizontal" android:layout_height="wrap_content"/><Button android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:text="@string/btn_checkIMEI" android:id="@+id/checkImeiButton" android:layout_gravity="top|center_horizontal"></Button>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:bufferType="normal" android:id="@+id/TextResults" android:textColor="#FFFFFF" android:textSize="20dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip"></TextView>
+</LinearLayout>
